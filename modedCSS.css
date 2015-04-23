@@ -10,9 +10,37 @@ body{
     width: 100%;
     height: auto;
 }
-.owl-controls.clickable{
-
+.customNavigation{
+  text-align: center;
 }
+.customNavigation a{
+    background-color: #FF5252;
+    padding: .5em;
+    border-radius: 1em;
+    box-shadow: 3px 3px 3px #888888;
+    width:1em;
+    height: 1em;
+}
+
+.customNavigation a:hover{
+    box-shadow: inset 3px 3px 3px #742f2e;
+}
+.customNavigation a i{ color: white;}
+
+.customNavigation a#prev{float: left;}
+
+.customNavigation a#nxt{float: right;}
+
+
+/*
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}*/
 
 /* header stylings (& add post btn) */
 #header{

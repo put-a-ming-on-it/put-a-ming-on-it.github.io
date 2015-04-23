@@ -25,11 +25,18 @@
         <script>
         $(document).ready(function() {
             $("#owl-demo").owlCarousel({
-                  navigation : true, // Show next and prev buttons
+                  //navigation : true, // Show next and prev buttons
                   slideSpeed : 300,
                   paginationSpeed : 400,
                   singleItem:true
               });
+            var owl = $(".owl-carousel").data('owlCarousel');
+            $("#nxt").click(function(){
+                owl.next();
+            })
+            $("#prev").click(function(){
+                owl.prev();
+            })
         });
         </script>
 
@@ -44,7 +51,12 @@
         <br/>
 
         <div id="content">
-          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="customNavigation">
+              <a class="owl-prev" id="prev"><i class="fa fa-chevron-left">&nbsp;</i></a>
+              <a class="owl-next" id="nxt"><i class="fa fa-chevron-right">&nbsp;</i></a>
+            </div>
+            <br/><br/>
+            <div id="owl-demo" class="owl-carousel owl-theme">
             <div class="item"><img src="imgs/sMingleLadies.jpg" alt="sMingle Ladies"></div>
             <div class="item"><img src="imgs/ming-before-time.jpg" alt="Ming before time"></div>
             <div class="item"><img src="imgs/vel-ming.jpg" alt="Vel-ming"></div>
@@ -58,7 +70,7 @@
             <div class="item"><img src="imgs/ming-bond.jpg" alt="The names Bond"></div>
             <div class="item"><img src="imgs/ming-lo.jpg" alt="more of ming"></div>
             <div class="item"><img src="imgs/sharkMeldon.jpg" alt="Shark Meldon"></div>
-          </div>
+            </div>
         </div>
         <br/>
 
