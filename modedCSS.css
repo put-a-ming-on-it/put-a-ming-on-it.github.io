@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*owl carousel css*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-controls.clickable{
+
+}
+
+/* header stylings (& add post btn) */
+#header{
+    display: block;
+    /*height: 4em;*/
+    padding: .5 em;
+    background-color: #3F51B5;
+    width: 100%;
+    box-shadow: 3px 3px 3px #888888;
+}
+.logo{
+    /*font-family: 'Ubuntu', sans-serif;*/
+
+    display: block;
+    width: 95%;
+    text-align: center;
+
+    padding: .5em;
+    font-size: 1.25em;
+    color: white;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+#footer{
+    display: block;
+    margin-top: 1em;
+    height: 4em;
+    background-color: #3F51B5;
+    width: 100%;
+    box-shadow: 3px -3px 3px #888888;
+}
+#accent{
+    display: block;
+    width: 100%;
+    background-color: #303F9F;
+    height: 1em;
+}
+
+.menu-btn{
+    float: right;
+    display: inline-block;
+    padding: 1.35em ;
+}
+
+.menu-btn.left{
+    float: left;
+}
+
+.menu-btn.minor a{
+    color: #C5CAE9;
+}
+
+.menu-btn a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.menu-btn a:hover{
+    text-decoration: underline;
+    color: #FF5252;
+}
+
+a#add-btn{
+    text-decoration: none;
+    color: white;
+    border-radius: 2em;
+    height: 1.5em;
+    width: 1.5em;
+    padding: .5em;
+    font-size: 2em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #b43c3b;
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+a i{ color: #FF5252;}
+a#add-btn:hover{
+    box-shadow: inset 3px 3px 3px #742f2e;
+    color: #e0df69;
+}
+
+/* home/landing stylings*/
+#welcome{
+    font-size: 4em;
+    display: inline-block;
+    color: #0c3b5a;
+}
+#errorMsg{
+    padding: 1em 0em 0em 2em;
+}
+.table-lay#content{
+    display: table-row;
+}
+a.sq-btn{
+    text-decoration:none;
+    color:#fff;
+    height:1.5em;
+    padding:.5em;
+    font-size:2em;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#b43c3b;
+    box-shadow:3px 3px 3px #888;
+    display: inline-block;
+}
+
+.left-col{
+    display: inline-block;
+}
+.right-col{
+    display: table-cell;
+    vertical-align:middle;
+}
+
+#header .logo a img {
+    max-height: 1.1em;
+}
+
+/* post feed stylings*/
+#content{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
