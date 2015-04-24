@@ -24,6 +24,7 @@ body{
 
 .customNavigation a:hover{
     box-shadow: inset 3px 3px 3px #742f2e;
+    cursor: pointer;
 }
 .customNavigation a i{ color: white;}
 
